@@ -1,2 +1,4 @@
 # Calculator-App
-Calculator app made with WPF.
+This WPF calculator project is a strong application created using C# and XAML within the .NET framework. It includes two primary modes: a regular calculator and a dedicated programmer mode. In programmer mode, users can effortlessly switch numbers among decimal, hexadecimal, octal, and binary bases, with the UI dynamically activating only the pertinent digit buttons based on the selected numeral system.
+
+The project utilizes the MVVM design pattern, implementing data binding with INotifyPropertyChanged to ensure the interface aligns with the fundamental calculation logic. Moreover, it offers sophisticated features like digit grouping for improved number clarity, along with basic clipboard actions (cut, copy, and paste) to enhance user interaction. These features, along with WPF’s event management and visual tree handling, create a responsive and user-friendly interface for routine calculations and more specialized, programmer-oriented functions
