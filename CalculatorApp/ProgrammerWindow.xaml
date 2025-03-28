@@ -1,0 +1,125 @@
+﻿<Window x:Class="Calculator.ProgrammerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Programmer" Height="650" Width="400"
+        Background="#FF202020" Foreground="White" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="CalcButtonStyle">
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="1"/>
+        </Style>
+        <Style TargetType="Button" x:Key="EqualsButtonStyle" BasedOn="{StaticResource CalcButtonStyle}">
+            <Setter Property="Background" Value="#FF0A74DA"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="CalcTextBoxStyle">
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="Focusable" Value="False"/>
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Right"/>
+        </Style>
+        <Style TargetType="ComboBox" x:Key="CalcComboBoxStyle">
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+        <Style TargetType="ComboBoxItem">
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="Black">
+            <Menu Background="Black" Foreground="White">
+                <MenuItem Header="_File">
+                    <MenuItem Header="Cut" Click="FileCut_Click" Foreground="Black"/>
+                    <MenuItem Header="Copy" Click="FileCopy_Click" Foreground="Black"/>
+                    <MenuItem Header="Paste" Click="FilePaste_Click" Foreground="Black"/>
+                </MenuItem>
+                <MenuItem Header="_Help">
+                    <MenuItem Header="About" Click="HelpAbout_Click" Foreground="Black"/>
+                </MenuItem>
+            </Menu>
+            <Button Content="Default Mode" Style="{StaticResource CalcButtonStyle}" Click="DefaultMode_Click" HorizontalAlignment="Right" Margin="10,0,0,0"/>
+        </StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" Style="{StaticResource CalcTextBoxStyle}" Text="{Binding Operation, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="16" Height="40"/>
+            <TextBox Grid.Row="1" Style="{StaticResource CalcTextBoxStyle}" Text="{Binding DisplayNumber, Mode=OneWay}" FontSize="24" Height="50"/>
+            <UniformGrid Grid.Row="2" Rows="1" Columns="4" Margin="2">
+                <StackPanel Background="Black" Margin="2">
+                    <Button Content="DEC" Style="{StaticResource CalcButtonStyle}" Click="BaseSelect_Click" Tag="DEC"/>
+                    <TextBlock Text="{Binding ValueDEC}" Foreground="White" HorizontalAlignment="Center" FontSize="14"/>
+                </StackPanel>
+                <StackPanel Background="Black" Margin="2">
+                    <Button Content="HEX" Style="{StaticResource CalcButtonStyle}" Click="BaseSelect_Click" Tag="HEX"/>
+                    <TextBlock Text="{Binding ValueHEX}" Foreground="White" HorizontalAlignment="Center" FontSize="14"/>
+                </StackPanel>
+                <StackPanel Background="Black" Margin="2">
+                    <Button Content="OCT" Style="{StaticResource CalcButtonStyle}" Click="BaseSelect_Click" Tag="OCT"/>
+                    <TextBlock Text="{Binding ValueOCT}" Foreground="White" HorizontalAlignment="Center" FontSize="14"/>
+                </StackPanel>
+                <StackPanel Background="Black" Margin="2">
+                    <Button Content="BIN" Style="{StaticResource CalcButtonStyle}" Click="BaseSelect_Click" Tag="BIN"/>
+                    <TextBlock Text="{Binding ValueBIN}" Foreground="White" HorizontalAlignment="Center" FontSize="14"/>
+                </StackPanel>
+            </UniformGrid>
+            <UniformGrid Grid.Row="3" Rows="1" Columns="6" Margin="2">
+                <Button Content="MC" Style="{StaticResource CalcButtonStyle}" Click="Memory_Click"/>
+                <Button Content="MR" Style="{StaticResource CalcButtonStyle}" Click="Memory_Click"/>
+                <Button Content="M+" Style="{StaticResource CalcButtonStyle}" Click="Memory_Click"/>
+                <Button Content="M-" Style="{StaticResource CalcButtonStyle}" Click="Memory_Click"/>
+                <Button Content="MS" Style="{StaticResource CalcButtonStyle}" Click="Memory_Click"/>
+                <ComboBox Style="{StaticResource CalcComboBoxStyle}" ItemsSource="{Binding MemoryEntries}" SelectedItem="{Binding SelectedMemory, Mode=TwoWay}"/>
+            </UniformGrid>
+            <UniformGrid Grid.Row="4" Rows="6" Columns="4" Margin="2">
+                <Button Content="%" Style="{StaticResource CalcButtonStyle}" Click="Operator_Click"/>
+                <Button Content="CE" Style="{StaticResource CalcButtonStyle}" Click="CE_Click"/>
+                <Button Content="C" Style="{StaticResource CalcButtonStyle}" Click="Clear_Click"/>
+                <Button Content="⌫" Style="{StaticResource CalcButtonStyle}" Click="Backspace_Click"/>
+                <Button Content="1/x" Style="{StaticResource CalcButtonStyle}" Click="Fraction_Click"/>
+                <Button Content="x²" Style="{StaticResource CalcButtonStyle}" Click="Sqr_Click"/>
+                <Button Content="√x" Style="{StaticResource CalcButtonStyle}" Click="Sqrt_Click"/>
+                <Button Content="/" Style="{StaticResource CalcButtonStyle}" Click="Operator_Click"/>
+                <Button Content="7" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="8" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="9" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="x" Style="{StaticResource CalcButtonStyle}" Click="Operator_Click"/>
+                <Button Content="4" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="5" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="6" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="-" Style="{StaticResource CalcButtonStyle}" Click="Operator_Click"/>
+                <Button Content="1" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="2" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="3" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="+" Style="{StaticResource CalcButtonStyle}" Click="Operator_Click"/>
+                <Button Content="±" Style="{StaticResource CalcButtonStyle}" Click="Sign_Click"/>
+                <Button Content="0" Style="{StaticResource CalcButtonStyle}" Click="Digit_Click"/>
+                <Button Content="." Style="{StaticResource CalcButtonStyle}" Click="DecimalPoint_Click"/>
+                <Button Content="=" Style="{StaticResource EqualsButtonStyle}" Click="Equals_Click"/>
+            </UniformGrid>
+            <UniformGrid Grid.Row="5" Rows="1" Columns="6" Margin="2">
+                <Button Content="A" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+                <Button Content="B" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+                <Button Content="C" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+                <Button Content="D" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+                <Button Content="E" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+                <Button Content="F" Style="{StaticResource CalcButtonStyle}" Click="HexDigit_Click"/>
+            </UniformGrid>
+        </Grid>
+    </DockPanel>
+</Window>

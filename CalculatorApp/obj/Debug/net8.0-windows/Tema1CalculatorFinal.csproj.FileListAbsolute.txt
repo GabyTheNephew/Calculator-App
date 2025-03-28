@@ -1,0 +1,44 @@
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\App.g.cs
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal_MarkupCompile.cache
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.exe
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.deps.json
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.runtimeconfig.json
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.dll
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.pdb
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.g.resources
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.AssemblyInfoInputs.cache
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.AssemblyInfo.cs
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.csproj.CoreCompileInputs.cache
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.dll
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\refint\Tema1CalculatorFinal.dll
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.pdb
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.genruntimeconfig.cache
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\ref\Tema1CalculatorFinal.dll
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Facultate\An 2\Sem 2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal_MarkupCompile.lref
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\ProgrammerWindow.baml
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\ProgrammerWindow.g.cs
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\App.g.cs
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal_MarkupCompile.cache
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal_MarkupCompile.lref
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.dll
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\refint\Tema1CalculatorFinal.dll
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.pdb
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.exe
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.deps.json
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.runtimeconfig.json
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.dll
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\bin\Debug\net8.0-windows\Tema1CalculatorFinal.pdb
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.g.resources
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.AssemblyInfoInputs.cache
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.AssemblyInfo.cs
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.csproj.CoreCompileInputs.cache
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\Tema1CalculatorFinal.genruntimeconfig.cache
+C:\Facultate\An2\Sem2\MVP\Tema1CalculatorFinal\Tema1CalculatorFinal\obj\Debug\net8.0-windows\ref\Tema1CalculatorFinal.dll

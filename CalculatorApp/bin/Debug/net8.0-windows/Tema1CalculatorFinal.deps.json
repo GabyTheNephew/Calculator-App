@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Tema1CalculatorFinal/1.0.0": {
+        "runtime": {
+          "Tema1CalculatorFinal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tema1CalculatorFinal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
